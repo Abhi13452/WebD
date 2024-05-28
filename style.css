@@ -1,0 +1,63 @@
+html{
+  color-scheme:dark light;
+}
+
+nav{
+    background-image: linear-gradient(to right top, #2e3229, #242a24, #1c221f, #161a19, #0f1111);
+}    
+
+.company-theme{
+    font-weight:700;
+}
+
+.carousel-caption .btn{
+    height:50px;
+    width:120px;
+    text-align:center;
+    margin-top:20px;
+    border:2px solid black;
+    transition:0.1s ease-in-out;
+}
+
+.carousel-caption .btn:hover{
+    transform:scale(1.01);
+}
+
+#about,#vision{
+  width:80%;
+}    
+
+section .card{
+  transition:0.5s ease-in;
+}
+
+section .card:hover{
+    transform:scale(1.02);
+}
+
+.flex{
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer-para-size{
+    font-size:2vmin;
+}
+
+@media screen and (max-width:500px){
+    #about,#vision{
+        width:90%;
+    }  
+
+    .flex{
+        text-align: center;
+        flex-direction:column;
+    }    
+
+    .footer-para-size{
+        font-size:3vmin;
+    }
+}
+
+
+    
